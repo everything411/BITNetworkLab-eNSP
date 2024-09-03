@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="053059DD-F20B-46da-88D8-5705411070C1" name="PC-50-1" poe="0" model="PC" settings=" -simpc_hostname pc-50-1  -simpc_ip 11.1.50.11  -simpc_mask 255.255.255.0  -simpc_gateway 11.1.50.1  -simpc_mac 54-89-98-F4-1F-05  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-F4-1F-05" com_port="0" bootmode="0" cx="687.000000" cy="313.000000" edit_left="714" edit_top="366">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="2CB2AAFA-F33B-4b0a-AA59-F8A6048CF211" name="RTA" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-7A-7F-58" com_port="2000" bootmode="0" cx="239.000000" cy="311.000000" edit_left="266" edit_top="365">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="30984FF6-98D6-44a7-833A-AD51038D587C" name="PC10-1" poe="0" model="PC" settings=" -simpc_hostname pc10-1  -simpc_ip 10.1.10.11  -simpc_mask 255.255.255.0  -simpc_gateway 10.1.10.1  -simpc_mac 54-89-98-A1-27-69  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-A1-27-69" com_port="0" bootmode="0" cx="98.000000" cy="311.000000" edit_left="125" edit_top="365">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="92113735-9C2C-4b3c-B8F1-E4102A2483AA" name="RTB" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-05-41-3E" com_port="2001" bootmode="0" cx="238.000000" cy="133.000000" edit_left="265" edit_top="187">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="7774A4CA-170F-423f-92A8-0FF9A806A840" name="RTC" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-28-3A-5F" com_port="2002" bootmode="0" cx="516.000000" cy="127.000000" edit_left="543" edit_top="181">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="81BAB4B0-443A-416f-8FF6-F5D2E0EC216B" name="RTD" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-E7-11-08" com_port="2003" bootmode="0" cx="522.000000" cy="303.000000" edit_left="549" edit_top="357">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="30984FF6-98D6-44a7-833A-AD51038D587C" destDeviceID="2CB2AAFA-F33B-4b0a-AA59-F8A6048CF211">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="168.183762" srcBoundRect_Y="338.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="222.816238" tarBoundRect_Y="338.000000" tarOffset_X="0.000000" tarOffset_Y="1.000000" />
+        </line>
+        <line srcDeviceID="2CB2AAFA-F33B-4b0a-AA59-F8A6048CF211" destDeviceID="92113735-9C2C-4b3c-B8F1-E4102A2483AA">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="265.757385" srcBoundRect_Y="294.816925" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="265.242615" tarBoundRect_Y="203.183090" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="92113735-9C2C-4b3c-B8F1-E4102A2483AA" destDeviceID="7774A4CA-170F-423f-92A8-0FF9A806A840">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="308.173706" srcBoundRect_Y="159.068192" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="499.826294" tarBoundRect_Y="154.931808" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="7774A4CA-170F-423f-92A8-0FF9A806A840" destDeviceID="81BAB4B0-443A-416f-8FF6-F5D2E0EC216B">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="544.471313" srcBoundRect_Y="197.158691" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="547.528687" tarBoundRect_Y="286.841309" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="81BAB4B0-443A-416f-8FF6-F5D2E0EC216B" destDeviceID="053059DD-F20B-46da-88D8-5705411070C1">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="592.104675" srcBoundRect_Y="332.612396" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="670.895325" tarBoundRect_Y="337.387604" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
